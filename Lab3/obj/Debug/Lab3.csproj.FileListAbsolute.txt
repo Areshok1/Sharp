@@ -1,0 +1,8 @@
+C:\Users\densn\source\repos\labsharp\labsharp\bin\Debug\labsharp.exe.config
+C:\Users\densn\source\repos\labsharp\labsharp\bin\Debug\labsharp.exe
+C:\Users\densn\source\repos\labsharp\labsharp\bin\Debug\labsharp.pdb
+C:\Users\densn\source\repos\labsharp\labsharp\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\densn\source\repos\labsharp\labsharp\obj\Debug\Lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\densn\source\repos\labsharp\labsharp\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\densn\source\repos\labsharp\labsharp\obj\Debug\labsharp.exe
+C:\Users\densn\source\repos\labsharp\labsharp\obj\Debug\labsharp.pdb

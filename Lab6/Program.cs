@@ -68,9 +68,9 @@ namespace tmp
                 a - (double)integer,
                 precision
               ) * IntPow(10, precision) // (123.45 - 123.00) * 10⁶ = 0.45 * 10⁶ = 450000
-            ); // get digits after point
+            ); // отримати цифри після точки
 
-            CutZeroes(ref fractional); // 450000 -> 45
+            CutZeroes(ref fractional); //
 
             return fractional;
         }
@@ -80,11 +80,11 @@ namespace tmp
             int integer = GetInteger(a);
             int fractional = GetFractional(a, precision);
 
-            Reverse(ref integer); // reverse integer value
-            Reverse(ref fractional); // reverse fractional value
+            Reverse(ref integer);
+            Reverse(ref fractional);
 
-            // there are two options: partial and NOT partial
-            // partial reverses number totally and NOT partial reverses integer and fractional individually
+            // два варіанти: частковий і НЕ частковий
+            // часткове змінює число повністю, а НЕ часткове змінює ціле та дробове окремо
             if (partial)
                 a = (double)integer + (double)fractional / IntPow(10, IntLength(fractional));
             else
@@ -180,11 +180,11 @@ namespace tmp
             int integer = GetInteger(a);
             int fractional = GetFractional(a);
 
-            ReverseRecursive(ref integer); // reverse integer value
-            ReverseRecursive(ref fractional); // reverse fractional value
+            ReverseRecursive(ref integer);
+            ReverseRecursive(ref fractional);
 
-            // there are two options: partial and NOT partial
-            // partial reverses number totally and NOT partial reverses integer and fractional individually
+            // два варіанти: частковий і НЕ частковий
+            // часткове змінює число повністю, а НЕ часткове змінює ціле та дробове окремо
             if (partial)
                 a = (double)integer + (double)fractional / IntPow(10, IntLength(fractional));
             else
@@ -298,7 +298,7 @@ namespace tmp
 
         }
 
-        static void Line(char c = '-') // prints out console-width amount of "c" value
+        static void Line(char c = '-')
         {
             int w = Console.WindowWidth;
             for (int i = 0; i < w; i++)
